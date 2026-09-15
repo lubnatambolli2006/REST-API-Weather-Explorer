@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Weather Explorer</h1>
+    <p>Explore real-time weather using a REST API</p>
+  </header>
+
+  <main class="container">
+
+    <div class="search-box">
+      <input id="city" type="text" placeholder="Enter city name">
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
+
+    <div id="weather" class="weather-card">
+      <p>Enter a city to view weather information.</p>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
